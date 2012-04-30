@@ -1,0 +1,9 @@
+{
+    "author": "Mark Engel <mark.c.engel@gmail.com> (http://engel.cx)",
+    "name": "newsletter2go",
+    "version": "1.0.0",
+    "dependencies": {
+        "underscore": "*"
+    },
+    "main": "lib/newsletter2go"
+}
