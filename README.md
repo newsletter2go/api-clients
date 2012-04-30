@@ -1,11 +1,11 @@
 newsletter2go.de api implementation written in coffee-script
 ============================================================
 
-newsletter2go.de is a german online newsletter sender.
+[newsletter2go.de](http://www.newsletter2go.de) is a german online newsletter software.
 
-The API is documented on [the website](https://www.newsletter2go.de/pr/api/Newsletter2Go_API_Doku_v1.4.pdf).
+You can find the [API documentation](https://www.newsletter2go.de/de/api) on the website.
 
-Currently this implementation only implements to send mails.
+Currently this implementation only implements the send mails functionality.
 
 Feel free to contribute.
 
