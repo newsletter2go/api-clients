@@ -16,7 +16,7 @@ Usage
 #!/usr/bin/env coffee
 Newsletter2Go = require './newsletter2go'
 
-key = '7d078c9bf4bf082d47871d9851bcce0d'
+key = 'YOUR API KEY'
 
 api = Newsletter2Go key
 
