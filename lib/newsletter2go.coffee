@@ -1,8 +1,5 @@
-assert = require 'assert'
 https = require 'https'
 querystring = require 'querystring'
-
-_ = require 'underscore'
 
 path =
     sendMail: '/de/api/send/email/'
@@ -42,17 +39,17 @@ parseResponse = (next) -> (err, raw) ->
 
 
 module.exports = (key) ->
-    assert key?, 'missing api key'
+    throw new Error 'missing api key' unless key?
     sendMail: (params, next) ->
         params.category ?= 'basic'
 
         # we check _only_ the required params
-        assert params.to?, 'to is required'
-        assert params.from?, 'from is required'
-        assert params.subject?, 'subject is required'
-        assert params.html?, 'html is required'
-        assert params.text?, 'text is required'
-        assert _.include(['basic', 'plus'], params.category), 'category has to be either basic or plus'
+        throw new Error 'to is required' unless params?.to?
+        throw new Error 'from is required' unless params?.from?
+        throw new Error 'subject is required' unless params?.subject?
+        throw new Error 'html is required' unless params?.html?
+        throw new Error 'text is required' unless params?.text?
+        throw new Error 'category has to be either basic or plus' unless params?.category in ['basic', 'plus']
 
         params.key = key
 
