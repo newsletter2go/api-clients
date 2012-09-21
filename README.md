@@ -1,5 +1,5 @@
-newsletter2go.de api implementation written in coffee-script
-============================================================
+# newsletter2go.de api implementation written in coffee-script
+
 
 newsletter2go.de is a german [online newsletter software](http://www.newsletter2go.de).
 
@@ -9,8 +9,8 @@ Currently this implementation only implements the send mails functionality.
 
 Feel free to contribute.
 
-Usage
-=====
+# Usage
+
 
 ```coffeescript
 #!/usr/bin/env coffee
