@@ -5,6 +5,6 @@ Die aktuelle API Dokumentation befindet sich hier:
 https://www.newsletter2go.de/pr/api/Newsletter2Go_API_Doku_latest.pdf
 
 Beispiele gibt es für folgende Sprachen, jeweils als eigenen Branch:
-- Java
+- [Java](../../tree/Java)
 
 Bei Fragen können Sie sich an dev (at) newsletter2go.com wenden.
