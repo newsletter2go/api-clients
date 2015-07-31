@@ -8,5 +8,6 @@ Beispiele gibt es für folgende Sprachen, jeweils als eigenen Branch:
 - [Java](../../tree/java)
 - [PHP](../../tree/php)
 - [Python](../../tree/python)
+- [Node.js (CoffeeScript)](../../tree/node.js)
 
 Bei Fragen können Sie sich an dev (at) newsletter2go.com wenden.
