@@ -1,3 +1,6 @@
+# This documentation is deprecated. Please visit (https://docs.newsletter2go.com)[https://docs.newsletter2go.com] for the current API documentation
+
+
 # api-clients
 Examples for using the Newsletter2go API
 
